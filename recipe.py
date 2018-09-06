@@ -1,3 +1,11 @@
+"""
+This is the recipe referenced from the offical Python documentation of the sys
+library for finding the size of an arbitrary Python object when the getsizeof
+is insufficient.
+
+Docs: https://docs.python.org/3/library/sys.html#sys.getsizeof
+Recipe: https://code.activestate.com/recipes/577504
+"""
 from __future__ import print_function
 from sys import getsizeof, stderr
 from itertools import chain
