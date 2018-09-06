@@ -1,3 +1,7 @@
+"""
+Examples of how to use Pympler: https://pythonhosted.org/Pympler/
+to analyze the memory usage of Python code.
+"""
 import sys
 from pympler import asizeof
 from pympler import classtracker
